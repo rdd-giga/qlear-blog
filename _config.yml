@@ -1,14 +1,16 @@
 # SITE CONFIGURATION
-baseurl: "/type-theme"
-url: "https://rohanchandra.github.io/"
+baseurl: ""
+url: "https://rdd-giga.github.io/"
 
 # THEME-SPECIFIC CONFIGURATION
+remote_theme: rohanchandra/type-theme
 theme_settings:
   # Meta
-  title: Type Theme
-  avatar: avatar.png
+  title: QLEAR Blog
+  avatar: assets/img/avatar.png
+  favicon: assets/favicon.ico
   gravatar: # Email MD5 hash
-  description: "A website with blog posts and pages" # used by search engines
+  description: "QLEAR's Company Blog" # used by search engines
 
   # Header and footer text
   header_text: >
@@ -46,6 +48,7 @@ theme_settings:
   google_analytics: # Tracking ID, e.g. "UA-000000-01"
   disqus_shortname:
   katex: true # Enable if using math markup
+  search: false # Enable the search feature
 
   # Localization strings
   str_follow_on: "Follow on"
@@ -53,8 +56,11 @@ theme_settings:
   str_email: "Email"
   str_next_post: "Next post"
   str_previous_post: "Previous post"
+  str_next_page: "Next"
+  str_previous_page: "Prev"
   str_continue_reading: "Continue reading"
   str_javascript_required_disqus: "Please enable JavaScript to view comments."
+  str_search_no_results: "No results found."
 
   # Colours, typography and padding
   # Open the "_sass > base" folder, and open "_variables.scss"
@@ -74,3 +80,7 @@ sass:
   sass_dir: _sass
   style: :compressed
 plugins: [jekyll-paginate]
+theme: jekyll-theme-type
+exclude:
+  - Gemfile
+  - Gemfile.lock
