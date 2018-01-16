@@ -1,13 +1,26 @@
 // Header text feature
 .call-out {
-  @extend %padding-regular;
-  display: inline-block;
+  padding: 1.5rem;
+  display: flex;
   width: 100%;
-  background-color:$header-desc-background-color;
   background-size: cover;
   font-size: 1.2em;
   text-align: center;
-  color: $header-desc-text-color;
+  color: $text-color;
+  justify-content: center;
+  a {
+    color: $link-color
+  }
+  ul {
+    list-style-type: none;
+    display: inline-flex;
+    li {
+      margin-left: 1rem;
+    }
+  }
+  .fa-rss {
+    margin-left: 1rem;
+  }
 }
 .call-out p:last-child {
   margin-bottom: 0;

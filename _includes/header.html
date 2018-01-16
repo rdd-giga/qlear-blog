@@ -15,7 +15,7 @@
 	</div>
 	<nav class="site-nav">
 		<ul>
-			{% for page in site.pages %}
+<!-- 			{% for page in site.pages %}
 			{% if page.title and page.hide != true %}
 			<li>
 				<a class="page-link" href="{{ page.url | prepend: site.baseurl }}">
@@ -23,9 +23,10 @@
 				</a>
 			</li>
 			{% endif %}
-			{% endfor %}
+			{% endfor %} -->
 			<!-- Social icons from Font Awesome, if enabled -->
-			{% include icons.html %}
+			{{ site.theme_settings.nav_text }}
+			<!-- {% include icons.html %} -->
 		</ul>
 	</nav>
 </header>
