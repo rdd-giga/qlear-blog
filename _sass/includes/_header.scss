@@ -32,13 +32,16 @@
       padding: 0;
       list-style: none;
       line-height: 1.5;
-      float: right;
+      float: left;
       text-align: right;
     }
     li {
       display: inline;
       float: left;
-      margin-right: 0.4em;
+      margin-left: 0.4em;
+      :hover {
+        border-top: 3px solid $link-color;
+      }
     }
     @media (max-width: 1100px) {
       ul {
