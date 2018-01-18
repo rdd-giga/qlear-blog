@@ -1,6 +1,6 @@
 # SITE CONFIGURATION
 baseurl: "/type-theme"
-url: "https://rohanchandra.github.io/"
+url: "https://blog.qlear.io/"
 
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
@@ -83,3 +83,4 @@ theme: jekyll-theme-type
 exclude:
   - Gemfile
   - Gemfile.lock
+  - vendor
