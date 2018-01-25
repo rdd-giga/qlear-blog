@@ -1,6 +1,6 @@
 # SITE CONFIGURATION
 baseurl: ""
-url: "https://rdd-giga.github.io/"
+url: "https://blog.qlear.io"
 
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
