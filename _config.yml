@@ -69,7 +69,7 @@ theme_settings:
           <h3>Resources</h3>
           <ul>
             <li class="footer-link">
-              <a href="https://guides.qlear.io/">Knowledge Base</a>
+              <a href="https://guides.qlear.io/" target="_blank">Knowledge Base</a>
             </li>
             <li class="footer-link">
               <a href="/web/contact">Contact Us</a>
@@ -83,10 +83,10 @@ theme_settings:
           <h3>Extras</h3>
           <ul>
             <li class="footer-link">
-              <a href="https://testing.qlear.io/locations">Browse Public Locations</a>
+              <a href="https://qlear.io/locations" target="_blank">Browse Public Locations</a>
             </li>
             <li class="footer-link">
-              <a href="https://angel.co/qlear">Careers</a>
+              <a href="https://angel.co/qlear" target="_blank">Careers</a>
             </li>
             <li class="footer-link">
               <a href="/web/termsService">Terms &amp; Services</a>
@@ -101,19 +101,19 @@ theme_settings:
           <p>Follow us!</p>
           <ul class="footer-socialList">
             <li>
-              <a href="https://twitter.com/QlearMarketing?lang=en">
+              <a href="https://twitter.com/QlearMarketing?lang=en" target="_blank">
                 <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAARCAYAAADdRIy+AAAAAXNSR0IArs4c6QAAArlJREFUOBGNlF1Ik2EUx/du7+YKhiN3Y0QEQW4kjUjckLopoosKLHAkBF0YGEG5D7dbR13IxqawbqSooFGXXoRQF4GURKJm5EVQiwVRMSq0bUKb++p3hm9MWbEDh/95zsf/Oc95nvdVdEg4HDbl83mny+Va9ng8FfFtF5/PtwOfDz2B7kE/osn29vbH2Wz2oqIo3SaTaUzBqfN6vY+AQZzPSBhgg1/i1yQUCu0ulUpzrA1oEv2KOtFLqLFWq2WpNWOPKYFAwFapVDI4hgiEwQKB05OTk2mwLnT3EuM3m/Wz2fqmW+f3+w9g26vVqpxqhtp3QngUwjmHw2FKp9OdGxsb0m03mmSD+0ajsUp3SxxnbzQa/YZ/iyQSiTbqzuK8BqFNj9R3TKVSXZFI5PPExMQxAkESjqOvIZtl/b4ZmTCvrq6WiA+gToPBMKhi/JRAuVweAnysa+AdUY7aA/bS6U6wqRSLxQ7iHupOxmKxFZXj7iOzRqefZCZ0+EGrZI5L2KL/lEKhIJdTtNvtzyVJb7FYVsRglzeNZOJrUQ7T3dvh4eGS5Ou5tRyOB9i3gsHg/hZJGtN6qF/UHHoxzGZzkA6dXMA0b1IuoyUZHR09ROJ59KlWUCccHx//gWORnfJWq/WFFvwf0oDCRU6R84RRzWi5dUJZqKo6AhzhM0pyOW4p0JKaIe/3Mv6DvNOrjXGVQD83fQ4VgjWILoAWSK+Df78WrYiZ63O5XJCv4yYvY4T3+UWLCaoE7nLUIjoN2Q18CzyX5cYkzWa+nXIC1r2QXeGo97SYhoa+vj4DizOQdYALHD3NXyc/Pz9fliQ6MvUgbrfbS85tXGvknIrH47MS3y71OcmDJllm6AFtYI2OM2Ab612b61fgQ34QU2xSxW4qWwZPscJT6GIMXWRbIV3HztBRis/qe1OGbc4/cO0xxDSOHjIAAAAASUVORK5CYII="
                   alt="">
               </a>
             </li>
             <li>
-              <a href="https://www.instagram.com/qlear.build/?hl=en">
+              <a href="https://www.instagram.com/qlear.build/?hl=en" target="_blank">
                 <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAp5JREFUOBGVlE2IUlEUx3u+5wcEaTbtg4Ehh7ZZE61t0SwKsiEqKoisKNBUpFa28wOVJIiIIogiDCqjIfqgVjNFEEWbHIpwE236UijEr9fviG94fuTYgXPPPed/7v+ec+99T1nVlXg87qpWq9twN+q6rhrxUVZRlBb6QdO0xWQyWZFcRYZgMLgH4DJEbmwdq0t8JSFXIdWG+UbusVwud08JhUJegosEigBRgp9XIjLj0Wh0stlsZojthGeLxuQ8RO+dTuccbTfNyaPmZxAIJhuNxi2Px+MvlUpv4IlbWORF7/8PWaFQUNvtdgbCk5AcDwQCDTiK+F4LgxvnBzq2+P3+NkRfuwu+dK1wuKXlkcIZ+9h0hiQheckZP8PqdLShVqutTiQSP80EcikfHQ7H1nq97jMDtPQdol3ETqC/UDmeNZDlsY8sFsta7LLgv+Bynig8mYMkyU2fWkaZkLBXDPo7m80+BFcikchurIpa0ZvmfDhy6HMLw3WABVVV15uVCi/JYiGTheTpmUzmLnEn7gW73e4y55P7Fr2jMQjpBMnyODtC1fuZrLPZbPPdkNnMs+YKR7SD8ywYAEc3QVyVlgaEdjufEYBU0yNU1YmZcnrwoYRU/AqtUUW4JxuHlkOYP1ar9XU/Jv7QZyPt08I5WsjSvgvyG+TKmz2M7sM/3f9cDPKhFQrI+citHUVnIXmKPibso9UjQBcNgn4rFbbQob8rFl6F6FosFpvCtlOp1Cc2GPonAlfBWhpDCcLp/p0Mv0uwJH46nTbCA5a8aUhL0rJ81IfC4fDmgawxAzz4GTgOcBxFhW/SUalUFli7ieBtdpJq2mNySUEe1s1h37lcru2dP3Y+n7eXy+WzALMAU+g/LwvMLLLxEuseQJakuPpfnddAali0lCgAAAAASUVORK5CYII="
                   alt="">
               </a>
             </li>
             <li>
-              <a href="https://www.linkedin.com/company/13278137/">
+              <a href="https://www.linkedin.com/company/13278137/" target="_blank">
                 <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAmJJREFUOBGtlE1oE1EQx7MfIYHARsTqQQUhCh4Ue1CDkYCt9upBPVTw0IJFPQj5IngMIiRE8gHiQaUgiuipeBC8+UVDLIgIelUEBQ+Cki7FQr78zbJv2QpLYfHBZGb+8+Y/M++9jRFxV7FYPJLNZiOdTsdWWBitlUqlE8Ph8M54PF7XNG07JN1ms3kWexyGUIfsNomNdrt9KJlM7sbeUSgUZsKQSY5OZ5au62/EqVQqA/y3mIfFD7NMyBZHo9FNRr+B3gPh+Wg0ejQMmeTolmU10a/cczxHgfl6vf49LKHGeU3R1aSPYATpI7q1uJjTxDQVA1/GtsFmkQPYv5APsVjsca1W+y37jHQ6/RC9C4ki25ALJH6FcJKky/hrLn4cfRV8AS1P6wWyikwz3fVMJrPS7Xa/mQARwzBuNRqN52Ln8/kl0awRHS63Wi0hFXyeAnI8J8HeC+auBrFZCi2Vy+V9ukIDtBePx+PPuKwp9m2B4BqXeEzlUOAJxV/3+/28l6CC/2gvXq1Wfw4GgyvE7yJ7GfMpxKd8+xexp70EX8AxqehdhgC5XE7OcAb4IB1dRC9wBGeczfyYpvkZPxVIqDYqzUWlsN9B9kcw/I+Qel9UIpH4AbwzkJBqGuL/nmWv5zP+Ov4E4qxerycxLZCQDjaMLOSy3PwIF7TB53/AiQUSSiIjeQSKaDMdSEh5+P4joXTiH3GzzlTc+VJ45ft5qPJdRnhfW1UQwgnemvPPQ7cpfBVS2lRx27bjAppsXGHjHLc2J4CMiXxB1sAvIfcFFzKwB2LL4pmscrOfwO+JTyMSf/kXXQoOxL7zKNAAAAAASUVORK5CYII="
                   alt="">
               </a>
