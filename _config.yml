@@ -5,8 +5,8 @@ url: "https://blog.qlear.io"
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
   # Meta
-  title: Type Theme
-  avatar: assets/img/avatar.png
+  title: QLEAR BLOG
+  avatar: assets/img/logo.png
   favicon: assets/favicon.ico
   gravatar: # Email MD5 hash
   description: "A website with blog posts and pages" # used by search engines
@@ -84,3 +84,16 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - vendor
+
+
+header:
+  baseUrl: 'https://testing.qlear.io'
+  links:
+    - text: 'What is QLEAR?'
+      link: '/web/product'
+    - text: 'Plans'
+      link: '/web/plans'
+    - text: 'Partners'
+      link: '/web/partners'
+    - text: 'About'
+      link: '/web/about'
