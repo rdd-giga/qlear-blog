@@ -211,6 +211,7 @@
   border: 1px solid $accent-color;
   padding: 0 .9375rem;
   margin-left: 2.5rem;
+  background: transparent;
   font-size: 1rem;
   font-family: Nunito;
   font-weight: 700;
@@ -300,6 +301,7 @@
   &+a {
     margin-top: 1.5rem;
     font-size: 1.875rem;
+    cursor: pointer;
   }
 }
 
