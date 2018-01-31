@@ -3,11 +3,18 @@ require 'mina/rails'
 require 'mina/git'
 require 'mina/rbenv'
 
-set :domain,      'qlear-web'
 set :user,        'deploy'
-set :deploy_to,   '/data/www/qlear-blog'
 set :repository,  'git@github.com:rdd-giga/qlear-blog.git'
 set :branch,      'gh-pages'
+set :deploy_to,   '/data/www/qlear-blog'
+
+server = ENV['s']||ENV['server']
+
+if server == 'production'
+  set :domain, "qlear-web"
+else
+  set :domain, "qlear-testing"
+end
 
 task :environment do
   invoke :'rbenv:load'
