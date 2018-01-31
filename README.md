@@ -8,17 +8,11 @@ A free and open-source [Jekyll](https://jekyllrb.com) theme. Great for blogs and
 
 ## Usage
 
-1. Fork and clone the [Type Theme repo](https://github.com/rohanchandra/type-theme)
-2. [Install Jekyll](https://jekyllrb.com/docs/installation/) using `gem install jekyll`
-3. Install the theme's dependencies using `bundle install`
-4. Customize the theme
-5. Run the Jekyll server, using `jekyll serve`
-
-## New to Jekyll, Git or Github Pages?
-
-If you are new to Jekyll and/or Git and would like to host your Jekyll blog using Github Pages, view a detailed installation walkthrough for Type Theme at:
-
-<a href="/project/type/github/" class="button">Using Type Theme with Github Pages</a>
+1. Fork and clone the [Type Theme repo](https://github.com/rohanchandra/type-theme): `git clone https://github.com/rohanchandra/type-theme`
+2. [Install Jekyll](https://jekyllrb.com/docs/installation/): `gem install jekyll`
+3. Install the theme's dependencies: `bundle install`
+4. Customize the theme (see below)
+5. Run the Jekyll server: `jekyll serve`
 
 ## Customizing Type Theme
 
@@ -26,7 +20,7 @@ Open `_config.yml` in a text editor to change most of the blog's settings.
 
 If a variable in this document is marked as "optional", disable the feature by removing all text from the variable. For example, to prevent the avatar from rendering in the header, the avatar line should read:
 
-```
+```yml
 theme:
   title: Type Theme
   avatar:
@@ -42,7 +36,7 @@ The most common configurations, included here for guidance, are:
 
 Jekyll website *without* a subpath (such as a GitHub Pages website for a given username):
 
-```
+```yml
 # SITE CONFIGURATION
 baseurl: ""
 url: "https://username.github.io"
@@ -50,7 +44,7 @@ url: "https://username.github.io"
 
 Jekyll website *with* subpath (like the Type Theme demo page):
 
-```
+```yml
 # SITE CONFIGURATION
 baseurl: "/sub-directory"
 url: "https://username.github.io/"
@@ -67,7 +61,7 @@ Change these variables in `_config.yml`:
 | Variable | Example | Description | Optional |
 |-------------|----------------------------------|--------------------------------------------------------------------------------------------------------------------------------|----------|
 | title | My Jekyll Blog | Name of website | Yes |
-| avatar | avatar.png | Name of avatar image in the `/img` directory, to be displayed in the theme's header | Yes |
+| avatar | assets/img/avatar.png | Path of avatar image, to be displayed in the theme's header | Yes |
 | gravatar | f9879d71855b5ff21e4963273a886bfc | [MD5 hash of your email address](https://secure.gravatar.com/site/implement/hash/) to load your Gravatar in the theme's header | Yes |
 | description | My blog posts | Short description, primarily used by search engines | Yes |
 
@@ -79,7 +73,7 @@ Change these variables in `_config.yml`:
 | Variable | Example | Description | Optional |
 |---------------------------|------------------------------|-------------------------------------------------------------------------|----------|
 | header_text | Welcome to my Jekyll blog | HTML (shown below the navigation) with a background colour for emphasis | Yes |
-| header_text_feature_image | img/sample_feature_img_3.png | Background image for the header text | Yes |
+| header_text_feature_image | assets/img/sample_feature_img_3.png | Background image for the header text | Yes |
 | footer_text | Copyright 2014 | HTML (shown at end of the site) with lighter text | Yes |
 
 ### Icons
@@ -126,17 +120,13 @@ Navigate to the `_sass > base` directory and open `_variables.scss` to change co
 
 Once you have loaded a Google Font in `config.yml`, you can integrate the fonts into your CSS by changing the font-family in `_variables.scss`. For example, after loading the Playfair Display and PT Sans fonts from Google:
 
-```
+```css
 // Typography
 $font-family-main: 'PT Sans', Helvetica, Arial, sans-serif;
 $font-family-headings: 'Playfair Display', Helvetica, Arial, sans-serif;
 ```
 
 Mozilla's [ColorPicker](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Colors/Color_picker_tool) is a helpful tool to get your preferred colours in hexadecimal or RGBA form for use in `_variables.scss`.
-
-### Favicon
-
-To change your favicon, usually displayed in the browser, place an ICO file named `favicon.ico` in the root directory of your blog.
 
 ## Posts and pages in Type Theme
 Please refer to the [Jekyll docs for writing posts](https://jekyllrb.com/docs/posts/). Non-standard features are documented below.
@@ -146,13 +136,13 @@ Wrap math expressions with `$$` signs in your posts and make sure you have set t
 
 For inline math typesetting, type your math expression on the *same line* as your content. For example:
 
-```
+```latex
 Type math within a sentence $$2x^2 + x + c$$ to display inline
 ```
 
 For display math typesetting, type your math expression on a *new line*. For example:
 
-```
+```latex
 $$
   \bar{y} = {1 \over n} \sum_{i = 1}^{n}y_i
 $$
@@ -168,11 +158,11 @@ Add a feature image by specifying a path to an image in the [front matter](http:
 
 For example:
 
-```
+```yml
 ---
 layout: post
 title: Hello World
-feature-img: "img/sample_feature_img.png"
+feature-img: "assets/img/sample_feature_img.png"
 ---
 ```
 
@@ -182,7 +172,7 @@ In the Front Matter of a page, add `hide: true` to prevent the page from showing
 
 For example:
 
-```
+```yml
 ---
 layout: page
 title: "Error 404: Page not found"
@@ -197,7 +187,7 @@ Post tags should be placed between `[]` in your post metadata. Seperate each tag
 
 For example:
 
-```
+```yml
 ---
 layout: post
 title: Markdown and HTML
@@ -207,6 +197,17 @@ tags: [sample, markdown, html]
 
 A tags listing will be automatically generated using the `tags.html` file provided in Type theme. If you're not using the tags feature it is safe to delete `tags.html`.
 
+### Search
+
+The search feature can be activated in the `_config.yml` file by changing its value from `false` to `true`.
+
+```yml
+  #Scripts
+  search: true
+```
+
+Once activated, the search bar will appear in the header. This feature uses [Lunr](https://lunrjs.com/) and searches through the title, tags and content of your posts.
+
 ### Subtitles
 A subtitle can be displayed below your title on permalink post pages.
 
@@ -214,7 +215,7 @@ To enable this feature, add `subtitle` to your post metadata.
 
 For example:
 
-```
+```yml
 ---
 layout: post
 title: "This is a title"

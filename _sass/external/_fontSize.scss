@@ -1,0 +1,81 @@
+/* design size 414 */
+/* base font size 16 */
+
+/* @media only screen and (max-width: 1080px), only screen and (max-device-width:1080px) {
+  html,body {
+      font-size:41.73913043478261px;
+  }
+} */
+@media only screen and (min-width: 960px), only screen and (min-device-width:960px) {
+  html,body {
+      /* font-size:37.10144927536232px; */
+      font-size: 16px;
+  }
+}
+  @media only screen and (max-width: 960px), only screen and (max-device-width:960px) {
+  html,body {
+      /* font-size:37.10144927536232px; */
+      font-size: 16px;
+  }
+}
+  @media only screen and (max-width: 800px), only screen and (max-device-width:800px) {
+  html,body {
+      /* font-size:30.917874396135264px; */
+      font-size: 16px;
+  }
+}
+//   @media only screen and (max-width: 720px), only screen and (max-device-width:720px) {
+//   html,body {
+//       font-size:27.82608695652174px;
+//   }
+// }
+//   @media only screen and (max-width: 640px), only screen and (max-device-width:640px) {
+//   html,body {
+//       font-size:24.734299516908212px;
+//   }
+// }
+//   @media only screen and (max-width: 600px), only screen and (max-device-width:600px) {
+//   html,body {
+//       font-size:23.18840579710145px;
+//   }
+// }
+//   @media only screen and (max-width: 540px), only screen and (max-device-width:540px) {
+//   html,body {
+//       font-size:20.869565217391305px;
+//   }
+// }
+//   @media only screen and (max-width: 480px), only screen and (max-device-width:480px) {
+//   html,body {
+//       font-size:18.55072463768116px;
+//   }
+// }
+  @media only screen and (max-width: 414px), only screen and (max-device-width:414px) {
+  html,body {
+      font-size:16px;
+  }
+}
+  @media only screen and (max-width: 400px), only screen and (max-device-width:400px) {
+  html,body {
+      font-size:15.458937198067632px!important;
+  }
+}
+  @media only screen and (max-width: 375px), only screen and (max-device-width:375px) {
+  html,body {
+      font-size:14.492753623188406px!important;
+  }
+}
+  @media only screen and (max-width: 360px), only screen and (max-device-width:360px) {
+  html,body {
+      font-size:13.91304347826087px!important;
+  }
+}
+  @media only screen and (max-width: 320px), only screen and (max-device-width:320px) {
+  html,body {
+      font-size:12.367149758454106px!important;
+  }
+}
+  /* @media only screen and (max-width: 240px), only screen and (max-device-width:240px) {
+  html,body {
+      font-size:9.27536231884058px;
+  }
+} */

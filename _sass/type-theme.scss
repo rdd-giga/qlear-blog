@@ -1,18 +1,18 @@
----
----
-// External
-@import 'external/reset';
-@import 'external/syntax';
-
 // Base
 @import 'base/variables';
 @import 'base/global';
 @import 'base/utility';
 
+// External
+@import 'external/fontSize';
+@import 'external/reset';
+@import 'external/syntax';
+
 // Posts
 @import 'layouts/posts';
 @import 'layouts/index';
 @import 'layouts/tags';
+@import 'layouts/search';
 
 // Partials
 @import 'includes/header';

@@ -6,7 +6,7 @@ url: "https://blog.qlear.io"
 theme_settings:
   # Meta
   title: QLEAR Blog
-  avatar: assets/img/avatar.png
+  avatar: assets/img/logo.png
   favicon: assets/favicon.ico
   gravatar: # Email MD5 hash
   description: "QLEAR's Company Blog" # used by search engines
@@ -147,9 +147,9 @@ theme_settings:
   youtube:
 
   # Scripts
-  google_analytics: # Tracking ID, e.g. "UA-000000-01"
+  # google_analytics: # Tracking ID, e.g. "UA-000000-01"
   disqus_shortname:
-  katex: true # Enable if using math markup
+  katex: false # Enable if using math markup
   search: false # Enable the search feature
 
   # Localization strings
@@ -187,3 +187,16 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - vendor
+
+
+header:
+  baseUrl: 'https://testing.qlear.io'
+  links:
+    - text: 'What is QLEAR?'
+      link: '/web/product'
+    - text: 'Plans'
+      link: '/web/plans'
+    - text: 'Partners'
+      link: '/web/partners'
+    - text: 'About'
+      link: '/web/about'
