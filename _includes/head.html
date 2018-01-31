@@ -3,10 +3,6 @@
 	<title>{% if page.title %}{{ page.title }} |{% endif %} {{ site.theme_settings.title }}</title>
 	<meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.theme_settings.description }}{% endif %}">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-
-	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-	<link href='https://fonts.googleapis.com/css?family=Dosis:200,300,400,500,600,700,800' rel='stylesheet' type='text/css'>
-	<link href='https://fonts.googleapis.com/css?family=Nunito:200,300,400,500,600,700,800' rel='stylesheet' type='text/css'>
 	<!-- CSS -->
 	<link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
 
@@ -20,12 +16,16 @@
 	<link rel="alternate" type="application/atom+xml" title="{{ site.theme_settings.title }}" href="{{ "/feed.xml" | relative_url }}" />
 
 	<!-- Font Awesome -->
-	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<!-- <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"> -->
+	<link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 
 	<!-- Google Fonts -->
 	{% if site.theme_settings.google_fonts %}
 	<link href="//fonts.googleapis.com/css?family={{ site.theme_settings.google_fonts }}" rel="stylesheet" type="text/css">
 	{% endif %}
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link href='https://fonts.googleapis.com/css?family=Dosis:200,300,400,500,600,700,800' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Nunito:200,300,400,500,600,700,800' rel='stylesheet' type='text/css'>
 
 	<!-- KaTeX -->
 	{% if site.theme_settings.katex %}
