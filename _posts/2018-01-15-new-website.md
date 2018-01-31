@@ -2,7 +2,7 @@
 layout: post
 title: A New QLEAR
 ---
-![Geometric pattern with fading gradient]({{ site.baseurl }}/img/sample_feature_img_2.png)
+![Geometric pattern with fading gradient]({{ site.baseurl }}/assets/img/sample_feature_img_2.png)
 Welcome to our new website! We've been working hard over the past few months to better understand how our users understand and use QLEAR. Taking what we've learned, we are deep into a full product redesign to better meet your needs. Today, we are excited to release the first part of this process, our company website and domain QLEAR.io.
 
 Since QLEAR launched nearly four years ago, our user base and product features have changed significantly, and in our research we found that many were uncertain of exactly how QLEAR works, and all the ways it can help them improve the indoor environment. This new website marks the first step in better communicating the potential of QLEAR.
