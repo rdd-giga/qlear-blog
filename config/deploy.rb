@@ -4,6 +4,7 @@ require 'mina/git'
 require 'mina/rbenv'
 
 set :user,        'deploy'
+set :forward_agent, true
 set :repository,  'git@github.com:rdd-giga/qlear-blog.git'
 set :branch,      'gh-pages'
 set :deploy_to,   '/data/www/qlear-blog'
