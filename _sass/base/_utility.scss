@@ -16,24 +16,50 @@
 }
 // Buttons
 .button {
-  line-height: 1.5;
-  background: $link-color;
-  color: $header-desc-text-color;
-  border-radius: 0.3em;
-  border: 1px solid;
+  // line-height: 1.5;
+  // background: $link-color;
+  // color: $header-desc-text-color;
+  // border-radius: 0.3em;
+  // border: 1px solid;
+  // display: inline-block;
+  // margin: 1em 0;
+  // padding: 0.5em 0.75em;
+
+  margin: 1em 0;  
+  font-size: 1rem;
+  font-family: Nunito;
+  color: $text-white-color;
+  background-color: $accent-color;
+  padding: 0 15px;
+  border-radius: 2px;
+  height: 40px;
+  line-height: 40px;
   display: inline-block;
-  margin: 1em 0;
-  padding: 0.5em 0.75em;
+  font-weight: 400;
+  text-align: center;
+  touch-action: manipulation;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid $accent-color;
+  white-space: nowrap;
+  user-select: none;
+  transition: all .3s cubic-bezier(.645,.045,.355,1);
+  position: relative;
 }
 a.button {
   @extend .button-link;
 }
 .button-link {
   &:hover {
-    background: $link-color;
-    border: 1px solid $link-color;
-    color: $background-color;
+    // background: $link-color;
+    // border: 1px solid $link-color;
+    // color: $background-color;
+    // text-decoration: none;
+
     text-decoration: none;
+    color: #fff;
+    background-color: #539db5;
+    border-color: #539db5;
   }
 }
 .body-link {
