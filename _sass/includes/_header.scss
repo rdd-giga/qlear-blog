@@ -216,17 +216,18 @@
   font-family: Nunito;
   font-weight: 700;
   height: 32px;
+  line-height: 32px;
   border-width: 1px;
   border-radius: 2px;
   outline: 0;
-  line-height: 1.5;
+  // line-height: 1.5;
   display: inline-block;
   text-align: center;
   touch-action: manipulation;
   cursor: pointer;
   white-space: nowrap;
   user-select: none;
-  transition: all .3s cubic-bezier(.645,.045,.355,1);
+  // transition: all .3s cubic-bezier(.645,.045,.355,1);
   position: relative;
   text-transform: none;
   overflow: visible;
@@ -234,10 +235,7 @@
     text-decoration: none;
     padding: 0 .875rem;
     border-width: 2px;
-  }
-
-  a {
-    color: $accent-color;    
+    line-height: 30px;    
   }
 }
 
