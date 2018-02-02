@@ -190,7 +190,7 @@ exclude:
 
 
 header:
-  baseUrl: 'https://testing.qlear.io'
+  baseUrl: 'https://qlear.io'
   links:
     - text: 'What is QLEAR?'
       link: '/web/product'
