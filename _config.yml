@@ -32,16 +32,16 @@ theme_settings:
      <p class="TagsList-heading">Topics:</p>
      <ul class="TagsList-list">
           <li class="TagsList-tag">
-            <a href="/tag/design/">Design</a>
+            <a href="/tags#design/">Design</a>
           </li>
           <li class="TagsList-tag">
-            <a href="/tag/engineering/">Engineering</a>
+            <a href="/tags#engineering/">Engineering</a>
           </li>
           <li class="TagsList-tag">
-            <a href="/tag/news/">News</a>
+            <a href="/tags#news/">News</a>
           </li>
           <li class="TagsList-tag">
-            <a href="/tag/product/">Product Updates</a>
+            <a href="/tags#product/">Product Updates</a>
           </li>
       </ul>
   header_text_feature_image:
