@@ -6,8 +6,8 @@ url: "https://blog.qlear.io"
 theme_settings:
   # Meta
   title: QLEAR Blog
-  avatar: assets/img/logo.png
-  favicon: assets/favicon.ico
+  avatar: /assets/img/logo.png
+  favicon: /assets/favicon.ico
   gravatar: # Email MD5 hash
   description: "QLEAR's Company Blog" # used by search engines
 
@@ -166,7 +166,7 @@ theme_settings:
 
   # Colours, typography and padding
   # Open the "_sass > base" folder, and open "_variables.scss"
-  google_fonts: "Nunito:400,700,700italic,400italic"
+  # google_fonts: "Nunito:400,700,700italic,400italic"
 
   # Post navigation
   post_navigation: true
