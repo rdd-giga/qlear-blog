@@ -28,9 +28,13 @@ Note that only part of the server on the market allows free copy of the video ad
 上传完成后可以在内容管理中看到已经成功上传的文件，点击右侧更多操作符>选择复制外链
 ![image](https://user-images.githubusercontent.com/16646893/52684729-297fb500-2f82-11e9-8e66-9b5b5a39aec5.png)
 
-将链接复制到 kiosk setting 中，如果地址可用则在下方会出现预览
+获得视频地址之后去kiosk设置
+![screen shot 2019-02-19 at 2 22 47 pm](https://user-images.githubusercontent.com/47511767/52994658-4b31de00-3453-11e9-89f0-cbcdb37c9618.png)
 
-![image](https://user-images.githubusercontent.com/16646893/52684764-474d1a00-2f82-11e9-8221-c958ca43ed99.png)
+选择显示背景为视频选项，复制视频链接到空白处
+![screen shot 2019-02-19 at 2 23 49 pm](https://user-images.githubusercontent.com/47511767/52994743-87fdd500-3453-11e9-9fe4-856717def289.png)
+
+设置好内容之后点击保存
 
 ---
 
@@ -50,7 +54,11 @@ Go to https://www.wonderplugin.com/online-tools/google-drive-direct-link-generat
 Paste your link in the upper blank and click the ‘Generate Google Drive Direct Link’.
 
 ![image](https://user-images.githubusercontent.com/47511767/52772465-7becce80-3073-11e9-8754-4dfdd5efac6a.png)
+  
+After you obtain the video address, access your kiosk setting.
+![screen shot 2019-02-19 at 2 22 47 pm](https://user-images.githubusercontent.com/47511767/52994658-4b31de00-3453-11e9-89f0-cbcdb37c9618.png)
 
-Copy the link in the generated link, which is your usable video address, and paste it on the kiosk setting bar. If the video can be identified, you should be able to see the preview picture.
+Choose 'Video' and paste your video address in the blank below.
+![screen shot 2019-02-19 at 2 23 49 pm](https://user-images.githubusercontent.com/47511767/52994743-87fdd500-3453-11e9-9fe4-856717def289.png)
 
-![image](https://user-images.githubusercontent.com/47511767/52772516-a2ab0500-3073-11e9-8478-76d1361039d9.png)
+Remember to save your changes before moving on.
