@@ -76,7 +76,7 @@ x + 0.5
 x - 0.5
 ```
 
-### 乘法运算
+**乘法运算**
 
 ![image](https://user-images.githubusercontent.com/6499/56714252-d20e7a00-6766-11e9-903d-ea6680e3d65f.png)
 
