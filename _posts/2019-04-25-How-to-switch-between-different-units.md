@@ -8,11 +8,11 @@ tags: [product]
 
 硬件发送上来的数据是一个固定的数值，当你想用其他单位显示数据时QLEAR可以根据您输入的自定义公式将原始数据转换，让数据展示更加贴近标准和专业。
 
-例如，如图场所显示PM2.5单位为ug/m3
+例如，如图场所显示HCHO单位为ppb
 
-![image](https://user-images.githubusercontent.com/26155270/56717615-a774ef00-676f-11e9-8d53-cc00a8baeac1.png)
+![image](https://user-images.githubusercontent.com/26155270/56724447-99c66600-677d-11e9-8bb8-a821a2dd6469.png)
 
-下面将展示如何将PM2.5单位做转换：
+下面将展示如何将HCHO单位做转换：
 
 ### 第一步 在导航栏找到Kiosk选项，选择想要编辑的场所，点击kiosk setting
 
@@ -22,13 +22,41 @@ tags: [product]
 
 ### 第二步 在Content栏找到想要更改的参数
 
-![image](https://user-images.githubusercontent.com/26155270/56717387-26b5f300-676f-11e9-9ca8-74d4e06e67f7.png)
+![image](https://user-images.githubusercontent.com/26155270/56724546-cf6b4f00-677d-11e9-9042-eecc1b6f0fb1.png)
 
 ### 第三步 点开这个参数，会看到输入公式和选择单位的地方
 
-![image](https://user-images.githubusercontent.com/26155270/56717464-464d1b80-676f-11e9-822b-b9955f5e9bbb.png)
+![image](https://user-images.githubusercontent.com/26155270/56724618-f0cc3b00-677d-11e9-8601-ede4d8b0e78e.png)
 
-## 第四步 输入转换公式，我们支持以下运算：
+### 第四步 输入转换公式
+
+根据某品牌的甲醛体积浓度转换为质量浓度公式
+
+![image](https://user-images.githubusercontent.com/6499/56725039-b57e3c00-677e-11e9-8788-7c2799bd06c5.png)
+
+其中用到了当前的温度，则可以直接使用 temperature 作为变量
+
+![image](https://user-images.githubusercontent.com/26155270/56718485-6ed61500-6771-11e9-821f-9d71581c95d2.png)
+```
+30 * x / 22.4 * (273.0 / (273.0 + temperature))
+```
+所以我在formula栏里面输入 30 * x / 22.4 * (273.0 / (273.0 + temperature))
+
+![image](https://user-images.githubusercontent.com/26155270/56730863-8de1a080-678b-11e9-98ad-d570519019a1.png)
+
+### 第五步 选择单位
+
+选择想要展示的单位
+![image](https://user-images.githubusercontent.com/26155270/56731342-d6e62480-678c-11e9-9ce8-833839037f2a.png)
+
+### 第六步 保存更改
+
+![image](https://user-images.githubusercontent.com/26155270/56731632-86bb9200-678d-11e9-9815-cafebe1103b7.png)
+
+我们会看到HCHO已经转换为根据输入的公式以及选择单位的数据
+
+
+## 我们支持以下运算：
 
 默认当前类型的值为 `x`
 
@@ -103,7 +131,7 @@ x ** 2 + 2 * x + 1
 | no2         | nitrogen dioxide     |
 | o3          | ozone                         |
 
-Sample： 某品牌的甲醛质量浓度转体积浓度的公式为
+ Sample： 某品牌的甲醛质量浓度转体积浓度的公式为
 
 ![image](https://user-images.githubusercontent.com/6499/56713966-e736d900-6765-11e9-978c-0bcc1719ed8a.png)
 
@@ -113,13 +141,6 @@ Sample： 某品牌的甲醛质量浓度转体积浓度的公式为
 x / 30* (273.0 + temperature) / 273.0 + 22.4
 ```
 
-### 第五步 选择单位
 
-那么现在我将PM2.5的单位从ug/m3转换为mg/m3，在formula栏输入`x * 0.001`,单位选择mg/m3
 
-![image](https://user-images.githubusercontent.com/26155270/56718485-6ed61500-6771-11e9-821f-9d71581c95d2.png)
-
-## 第六步 保存更改
-
-我们会看到
 
