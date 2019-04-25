@@ -8,11 +8,9 @@ tags: [product]
 
 硬件发送上来的数据是一个固定的数值，当你想用其他单位显示数据时QLEAR可以根据您输入的自定义公式将原始数据转换，让数据展示更加贴近标准和专业。
 
-例如，如图场所显示HCHO单位为ppb
+下面将展示如何将HCHO的单位从ppb转换为ug/m3
 
 ![image](https://user-images.githubusercontent.com/26155270/56724447-99c66600-677d-11e9-8bb8-a821a2dd6469.png)
-
-下面将展示如何将HCHO单位做转换：
 
 ### 第一步 在导航栏找到Kiosk选项，选择想要编辑的场所，点击kiosk setting
 
@@ -46,6 +44,7 @@ tags: [product]
 ### 第五步 选择单位
 
 选择想要展示的单位
+
 ![image](https://user-images.githubusercontent.com/26155270/56731342-d6e62480-678c-11e9-9ce8-833839037f2a.png)
 
 ### 第六步 保存更改
@@ -55,7 +54,7 @@ tags: [product]
 我们会看到HCHO已经转换为根据输入的公式以及选择单位的数据
 
 
-## 我们支持以下运算：
+## 我们支持以下计算类型：
 
 默认当前类型的值为 `x`
 
