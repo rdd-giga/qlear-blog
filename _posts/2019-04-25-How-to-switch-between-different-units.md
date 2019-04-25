@@ -12,21 +12,21 @@ tags: [product]
 
 ![image](https://user-images.githubusercontent.com/26155270/56724447-99c66600-677d-11e9-8bb8-a821a2dd6469.png)
 
-### 第一步 在导航栏找到Kiosk选项，选择想要编辑的场所，点击kiosk setting
+**第一步 在导航栏找到Kiosk选项，选择想要编辑的场所，点击kiosk setting**
 
 ![image](https://user-images.githubusercontent.com/26155270/56717846-24a06400-6770-11e9-922b-38549555d236.png)
 
 ![image](https://user-images.githubusercontent.com/26155270/56710981-4ba06b00-675b-11e9-9a1e-4639e2f9d52f.png)
 
-### 第二步 在Content栏找到想要更改的参数
+**第二步 在Content栏找到想要更改的参数**
 
 ![image](https://user-images.githubusercontent.com/26155270/56724546-cf6b4f00-677d-11e9-9042-eecc1b6f0fb1.png)
 
-### 第三步 点开这个参数，会看到输入公式和选择单位的地方
+**第三步 点开这个参数，会看到输入公式和选择单位的地方**
 
 ![image](https://user-images.githubusercontent.com/26155270/56724618-f0cc3b00-677d-11e9-8601-ede4d8b0e78e.png)
 
-### 第四步 输入转换公式
+**第四步 输入转换公式**
 
 根据某品牌的甲醛体积浓度转换为质量浓度公式
 
@@ -41,24 +41,24 @@ tags: [product]
 
 ![image](https://user-images.githubusercontent.com/26155270/56730863-8de1a080-678b-11e9-98ad-d570519019a1.png)
 
-### 第五步 选择单位
+**第五步 选择单位**
 
 选择想要展示的单位
 
 ![image](https://user-images.githubusercontent.com/26155270/56731342-d6e62480-678c-11e9-9ce8-833839037f2a.png)
 
-### 第六步 保存更改
+**第六步 保存更改**
 
 ![image](https://user-images.githubusercontent.com/26155270/56731632-86bb9200-678d-11e9-9815-cafebe1103b7.png)
 
 我们会看到HCHO已经转换为根据输入的公式以及选择单位的数据
 
 
-## 我们支持以下计算类型：
+### 我们支持以下计算类型：
 
 默认当前类型的值为 `x`
 
-### 加法运算
+**加法运算**
 
 ![image](https://user-images.githubusercontent.com/6499/56714217-bacf8c80-6766-11e9-9142-c83581f4cd92.png)
 
@@ -67,7 +67,7 @@ tags: [product]
 x + 0.5
 ```
 
-### 减法运算
+**减法运算**
 
 ![image](https://user-images.githubusercontent.com/6499/56714208-b4411500-6766-11e9-8d1a-d3a119826879.png)
 
@@ -83,7 +83,7 @@ x - 0.5
 x * 0.5
 ```
 
-### 除法运算
+**除法运算**
 
 ![image](https://user-images.githubusercontent.com/6499/56714265-dcc90f00-6766-11e9-9233-488d1e271145.png)
 
@@ -91,15 +91,14 @@ x * 0.5
 x / 2
 ```
 
-### 平方运算
+**平方运算**
 
 ![image](https://user-images.githubusercontent.com/6499/56714301-008c5500-6767-11e9-9261-34ce43345d11.png)
 
 ```
 x ** 2
 ```
-
-### 混合运算
+**混合运算**
 
 可以通过括号将上面的四则运算进行任意组合，如 
 
@@ -111,7 +110,8 @@ Sample: 简单的一元二次转换
 x ** 2 + 2 * x + 1
 ```
 
-### 带变量运算
+**带变量运算**
+
 除了自身变量 `x` 外，还支持 同一时段其他指标数据的相应引用，其具体的变量名称为：
 
 | 名称        | 描述                              |
