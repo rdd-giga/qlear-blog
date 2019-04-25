@@ -8,19 +8,19 @@ tags: [product]
 
 硬件发送上来的数据是一个固定的数值，当你想用其他单位显示数据时QLEAR可以根据您输入的自定义公式将原始数据转换，让数据展示更加贴近标准和专业。
 
-##第一步 打开kiosk setting
+## 第一步 打开kiosk setting
 
 ![image](https://user-images.githubusercontent.com/26155270/56710981-4ba06b00-675b-11e9-9a1e-4639e2f9d52f.png)
 
-##第二步 在content栏，找到想要更改的参数
+## 第二步 在content栏，找到想要更改的参数
 
 ![image](https://user-images.githubusercontent.com/26155270/56715953-aa6de080-676b-11e9-972e-0da750f87e6e.png)
 
-##第三步 点开下拉 会看到输入公式和选择单位的地方
+## 第三步 点开下拉 会看到输入公式和选择单位的地方
 
 ![image](https://user-images.githubusercontent.com/26155270/56716045-e43ee700-676b-11e9-9d16-49d9daa69624.png)
 
-##第四步 输入转换公式，我们支持以下运算：
+## 第四步 输入转换公式，我们支持以下运算：
 
 默认当前类型的值为 `x`
 
@@ -105,8 +105,8 @@ Sample： 某品牌的甲醛质量浓度转体积浓度的公式为
 x / 30* (273.0 + temperature) / 273.0 + 22.4
 ```
 
-##第五步 选择单位
+## 第五步 选择单位
 
-##第六步 保存更改
+## 第六步 保存更改
 
 
