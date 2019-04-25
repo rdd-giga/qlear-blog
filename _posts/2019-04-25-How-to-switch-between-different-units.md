@@ -36,7 +36,6 @@ tags: [product]
 
 其中用到了当前的温度，则可以直接使用 temperature 作为变量
 
-![image](https://user-images.githubusercontent.com/26155270/56718485-6ed61500-6771-11e9-821f-9d71581c95d2.png)
 ```
 30 * x / 22.4 * (273.0 / (273.0 + temperature))
 ```
