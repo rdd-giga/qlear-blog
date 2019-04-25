@@ -12,7 +12,7 @@ tags: [product]
 
 ![image](https://user-images.githubusercontent.com/26155270/56724447-99c66600-677d-11e9-8bb8-a821a2dd6469.png)
 
-**第一步 在导航栏找到Kiosk选项，选择想要编辑的场所，点击kiosk setting**
+**第一步 在导航栏找到Kiosk选项，点击kiosk, 进入kiosk页面选择想要编辑的场所，点击场所名称旁边的三个逗点**
 
 ![image](https://user-images.githubusercontent.com/26155270/56717846-24a06400-6770-11e9-922b-38549555d236.png)
 
