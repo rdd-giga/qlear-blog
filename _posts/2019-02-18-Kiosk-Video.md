@@ -1,7 +1,5 @@
 ---
 layout: post
-title: ---
-layout: post
 title: Display Air Quality Data with Commercial Video. Read the Tutorial Here
 tags: [product]
 ---

@@ -1,6 +1,5 @@
 ---
 layout: post
-layout: post
 title: QLEAR：全球首个同时连接LEED和RESET的环境质量平台
 tags: [news]
 ---
