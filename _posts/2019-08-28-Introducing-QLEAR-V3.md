@@ -43,7 +43,7 @@ Reporting capabilities have been expanded and enhanced. Whereas you could previo
 
 Whereas in V2, you were restricted in how many sets of data you could compare at once, you now have the ability to compare as many data sets from one workspace as you want in the graphing function. Data tables are more flexible now, with new ways of downloading and filtering data. You now have the option of downloading average data for every hour or half hour. New options for filtering data include filtering by working hours and by different standards, including those from RESET, WELL, and LEED. Having more options means that you can now do more with your data. 
 
-![image](https://user-images.githubusercontent.com/26155270/63854268-60259600-c9cf-11e9-8d93-69cc3a8f8792.png)
+![image](https://user-images.githubusercontent.com/54521604/63932214-56606900-ca89-11e9-9d8d-52c6cc422198.png)
 <center>Graph Overview</center>
 
 ![image](https://user-images.githubusercontent.com/26155270/63854308-76335680-c9cf-11e9-90bd-8cae0bb3500e.png)
@@ -75,14 +75,14 @@ Indicators let you group data by category. These categories will typically repre
 
 Collections allow you to group together different indicators, such as different parameters that your project is currently measuring. However, many monitors can already collect data for multiple parameters, so what makes collections special is the fact that you can combine indicator data from different monitors into one collection. Previously unavailable in QLEAR V2, this creates endless possibilities for combining data to meet any and every client need.
 
-![image](https://user-images.githubusercontent.com/26155270/63854464-ce6a5880-c9cf-11e9-936d-809e30a18fc1.png)
+![image](https://user-images.githubusercontent.com/54521604/63932245-65dfb200-ca89-11e9-8517-159432c69b93.png)
 <center>Collection Overview</center>
 
 #### Locations Page
 
 As mentioned earlier, there is now a Locations tab that lists all of the projects belonging to a workspace. From there, you can visit every project’s Locations page, which is now a separate page that displays average data for the location, as well as data from each collection within the location. This helps keep a location’s data very organized, so you can know exactly where data is coming from and how a location is performing.
 
-![image](https://user-images.githubusercontent.com/26155270/63854525-ea6dfa00-c9cf-11e9-9eba-4decb802b548.png)
+![image](https://user-images.githubusercontent.com/54521604/63932313-827bea00-ca89-11e9-8bd3-f69ad1b03c9f.png)
 <center>Locations Page Overview</center>
 
 <br/>
