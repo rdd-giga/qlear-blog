@@ -1,6 +1,5 @@
 ---
 layout: post
-layout: post
 title: Introducing QLEAR V3 
 tags: [news]
 ---
@@ -8,6 +7,9 @@ tags: [news]
 ![Blog-qlear-英文](https://user-images.githubusercontent.com/26155270/63856150-91a06080-c9d3-11e9-8c45-aef01d2e8c69.png)
 
 QLEAR is excited to announce the upcoming launch of its V3 platform. This latest version comes with exciting new features and updated services that are more capable than ever before. V3 also introduces a brand new user interface that allows for a simple and straightforward display of tools and information at the user’s disposal. These changes will allow service providers to be much better equipped to meet the needs of their clients.
+
+<br/>
+<br/>
 
 ### A Stunning Display with Smart Features
 
@@ -22,6 +24,9 @@ To make it effortless to access the features available to you in V3, we have add
 #### Global Search
 
 Another update for V3 is the addition of a global search bar at the top of the page. This tool facilitates the use of our platform because you can use it to search for workspaces, locations, and data sources. It can also be used to search for indicators and collections, which are new features to help with data organization. 
+
+<br/>
+<br/>
 
 ### Customizable Tools for Analyzing and Visualizing Data
 
@@ -44,6 +49,8 @@ Whereas in V2, you were restricted in how many sets of data you could compare at
 ![image](https://user-images.githubusercontent.com/26155270/63854308-76335680-c9cf-11e9-90bd-8cae0bb3500e.png)
 <center>Data Table Overview</center>
 
+<br/>
+<br/>
 
 #### Kiosk
 
@@ -78,6 +85,8 @@ As mentioned earlier, there is now a Locations tab that lists all of the project
 ![image](https://user-images.githubusercontent.com/26155270/63854525-ea6dfa00-c9cf-11e9-9eba-4decb802b548.png)
 <center>Locations Page Overview</center>
 
+<br/>
+<br/>
 
 ### A New and Improving Experience
 
